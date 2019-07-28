@@ -1,0 +1,4 @@
+
+
+# pour le live reload: https://github.com/oneclick/rubyinstaller2/issues/96
+>/ gem install eventmachine --platform ruby

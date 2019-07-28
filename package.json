@@ -1,0 +1,26 @@
+{
+  "name": "charleshetier.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel watch widgets/**/w-*.ts --out-dir assets/widgets/ --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charleshetier/charleshetier.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charleshetier/charleshetier.github.io/issues"
+  },
+  "homepage": "https://github.com/charleshetier/charleshetier.github.io#readme",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "lit-element": "^2.2.0",
+    "parcel": "^1.12.3"
+  }
+}

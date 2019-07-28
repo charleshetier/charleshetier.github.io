@@ -1,0 +1,13 @@
+sass:
+    sass_dir: css
+
+highlighter: rouge
+exclude:
+    - /serve.bat
+    - /setup.txt
+    - /Gemfile
+    - /Gemfile.lock
+    - /node_modules/
+    - /package.json
+    - /package-lock.json
+    - /widgets/

@@ -1,0 +1,21 @@
+.highlighter-rouge {
+
+    padding: 5px 10px;
+    border-radius: 3px;
+
+    background: #333;
+    color: #eee;
+    border-left: solid 3px #222;
+
+    > .highlight > .highlight {
+        > code {
+            .nt {
+                color: #8bc7f8;
+            }
+
+            .s {
+                color: #f87542;
+            }
+        }
+    }
+}
