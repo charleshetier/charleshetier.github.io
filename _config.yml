@@ -11,3 +11,8 @@ exclude:
     - /package.json
     - /package-lock.json
     - /widgets/
+
+plugins:
+    - jekyll-feed
+
+theme:
