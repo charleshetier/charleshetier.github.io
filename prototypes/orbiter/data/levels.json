@@ -1,0 +1,20 @@
+[
+  {
+    "id": "sandbox",
+    "name": "Level DEV",
+    "description": "This is a sandbox level",
+    "planets": [
+      {
+        "id": "planet1",
+        "atmosphere": true
+      }
+    ],
+    "satellites": [
+      {
+        "id": "satellite",
+        "planetId": "planet1",
+        "clockwise": true
+      }
+    ]
+  }
+]

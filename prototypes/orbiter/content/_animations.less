@@ -1,0 +1,149 @@
+﻿
+.perspective(@value1)
+{
+    -moz-perspective: @value1;
+    -ms-perspective: @value1;
+    -webkit-perspective: @value1;
+    perspective: @value1;
+}
+
+.perspective(@value1, @value2)
+{
+    -moz-perspective: @value1, @value2;
+    -ms-perspective: @value1, @value2;
+    -webkit-perspective: @value1, @value2;
+    perspective: @value1, @value2;
+}
+
+.perspective(@value1, @value2, @value3)
+{
+    -moz-perspective: @value1, @value2, @value3;
+    -ms-perspective: @value1, @value2, @value3;
+    -webkit-perspective: @value1, @value2, @value3;
+    perspective: @value1, @value2, @value3;
+}
+
+.transform(@value1) {
+    -moz-transform: @value1;
+    -ms-transform: @value1;
+     -o-transform: @value1;
+    -webkit-transform: @value1;
+    transform: @value1;
+}
+
+.transform-withTranslate3d(@offsetX, @offsetY, @offsetZ, @value1) {
+    -moz-transform: -moz-translate3d(@offsetX, @offsetY, @offsetZ) @value1;
+    -ms-transform: -ms-translate3d(@offsetX, @offsetY, @offsetZ) @value1;
+     -o-transform: -o-translate3d(@offsetX, @offsetY, @offsetZ) @value1;
+    -webkit-transform: -webkit-translate3d(@offsetX, @offsetY, @offsetZ) @value1;
+    -webkit-transform: translate3d(@offsetX, @offsetY, @offsetZ) @value1;
+    transform: translate3d(@offsetX, @offsetY, @offsetZ) @value1;
+}
+
+.transform-rotate(@angle) {
+    .transform(rotate(@angle) translate3d( 0, 0, 0));
+}
+
+.transform-scale(@value) {
+    .transform(scale(@value) translate3d( 0, 0, 0));
+}
+
+.transform-translateX(@offsetX) {
+    .transform(translateX(@offsetX) translate3d( 0, 0, 0));
+}
+
+.transform-translateY(@offsetY) {
+    .transform(translateY(@offsetY) translate3d( 0, 0, 0));
+}
+
+.transform-translate(@offsetX, @offsetY) {
+    .transform(translate(@offsetX, @offsetY) translate3d( 0, 0, 0));
+}
+
+.transform-origin(@params) {
+    -moz-transform-origin: @params;
+    -ms-transform-origin: @params;
+    -o-transform-origin: @params;
+    -webkit-transform-origin: @params;
+    transform-origin: @params;
+}
+
+.transition(@value1) {
+    -moz-transition: @value1;
+    -o-transition: @value1;
+    -webkit-transition: @value1;
+    transition: @value1;
+}
+
+.transition(@value1, @value2) {
+    -moz-transition: @value1, @value2;
+    -o-transition: @value1, @value2;
+    -webkit-transition: @value1, @value2;
+    transition: @value1, @value2;
+}
+
+.transition(@value1, @value2, @value3) {
+    -moz-transition: @value1, @value2, @value3;
+    -o-transition: @value1, @value2, @value3;
+    -webkit-transition: @value1, @value2, @value3;
+    transition: @value1, @value2, @value3;
+}
+
+.transition(@value1, @value2, @value3, @value4) {
+    -moz-transition: @value1, @value2, @value3, @value4;
+    -o-transition: @value1, @value2, @value3, @value4;
+    -webkit-transition: @value1, @value2, @value3, @value4;
+    transition: @value1, @value2, @value3, @value4;
+}
+
+.transition(@value1, @value2, @value3, @value4, @value5) {
+    -moz-transition: @value1, @value2, @value3, @value4, @value5;
+    -o-transition: @value1, @value2, @value3, @value4, @value5;
+    -webkit-transition: @value1, @value2, @value3, @value4, @value5;
+    transition: @value1, @value2, @value3, @value4, @value5;
+}
+
+.transition(@value1, @value2, @value3, @value4, @value5, @value6) {
+    -moz-transition: @value1, @value2, @value3, @value4, @value5, @value6;
+    -o-transition: @value1, @value2, @value3, @value4, @value5, @value6;
+    -webkit-transition: @value1, @value2, @value3, @value4, @value5, @value6;
+    transition: @value1, @value2, @value3, @value4, @value5, @value6;
+}
+
+.transition-transform(@duration) {
+    -moz-transition: -moz-transform @duration;
+    -o-transition: -o-transform @duration;
+    -webkit-transition: -webkit-transform @duration;
+    transition: transform @duration;
+}
+
+.transition-transform(@duration, @rest...) {
+    -moz-transition: -moz-transform @duration, @rest;
+    -o-transition: -o-transform @duration, @rest;
+    -webkit-transition: -webkit-transform @duration, @rest;
+    transition: transform @duration, @rest;
+}
+
+.transition-delay(@params)
+{
+    -moz-transition-delay: @params;
+    -o-transition-delay: @params;
+    -webkit-transition-delay: @params;
+    transition-delay: @params;
+}
+
+.transition-delay(@param1, @param2)
+{
+    -moz-transition-delay: @param1, @param2;
+    -o-transition-delay: @param1, @param2;
+    -webkit-transition-delay: @param1, @param2;
+    transition-delay: @param1, @param2;
+}
+
+.transition-duration(@params)
+{
+    -moz-transition-duration: @params;
+    -o-transition-duration: @params;
+    -webkit-transition-duration: @params;
+    transition-duration: @params;
+}

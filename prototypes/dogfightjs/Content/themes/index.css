@@ -1,0 +1,96 @@
+﻿html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+section#help {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  font-size: 12px;
+  overflow: hidden;
+  padding: 5px;
+  border-radius: 3px;
+  pointer-events: none;
+}
+section#help > .update-info {
+  font-style: italic;
+  opacity: 0.8;
+  border-bottom: rgba(0, 0, 0, 0.1) 1px solid;
+  padding-bottom: 2px;
+}
+section#help > h2 {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+  border-top: rgba(255, 255, 255, 0.5) 1px solid;
+  padding-top: 2px;
+}
+section#help > ul {
+  margin: 0;
+  padding: 5px 0 0 0;
+}
+section#help > ul > li {
+  list-style: none;
+  display: block;
+  margin: 3px 0;
+  padding: 0;
+}
+section#help > ul > li > .label {
+  font-weight: bold;
+  color: #555;
+}
+section#help > ul > li > .label:before {
+  content: '[ ';
+}
+section#help > ul > li > .label:after {
+  content: ' ]:';
+}
+section#help > ul > li > .value {
+  margin-left: 2px;
+  font-style: italic;
+}
+section#inputs {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  font-size: 12px;
+  overflow: hidden;
+  padding: 5px;
+  border-radius: 3px;
+  pointer-events: none;
+}
+section#inputs > .power {
+  display: inline-block;
+  position: relative;
+  height: 200px;
+  width: 5px;
+  border: 1px solid #555;
+  border-radius: 3px;
+  overflow: hidden;
+}
+section#inputs > .power > .value {
+  background-color: #555;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  /*-moz-transition: height 0.2s;
+            -o-transition: height 0.2s;
+            -webkit-transition: height 0.2s;
+            transition: height 0.2s;*/
+}
+/*# sourceMappingURL=index.css.map */
